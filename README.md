@@ -15,18 +15,18 @@ $ npm install tough-cookie-file-store-bugfix
 
 ## Usage
 ``` js
-var cookieStore = require('tough-cookie-file-store');
+var cookieStore = require('tough-cookie-file-store-bugfix');
 var CookieJar = require('tough-cookie').CookieJar;
 var jar = new CookieJar(new cookieStore('./cookie.json'));
 
 /* check if cookie is empty or expired */
-var cookieStore	= require('tough-cookie-file-store');
+var cookieStore	= require('tough-cookie-file-store-bugfix');
 var cookieInstance = new cookieStore('./cookie.json');
 cookieInstance.isExpired() // will return True if the cookie is expired
 cookieInstance.isEmpty() // will return True is cookie is empty
 
 /* request example */
-var cookieStore = require('tough-cookie-file-store');
+var cookieStore = require('tough-cookie-file-store-bugfix');
 var j = request.jar(new cookieStore('./cookie.json'));
 request = request.defaults({ jar : j })
 request('http://www.google.com', function() {
