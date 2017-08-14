@@ -1,10 +1,12 @@
 # tough-cookie-file-store
 
-[![NPM](https://nodei.co/npm/tough-cookie-file-store.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/tough-cookie-file-store/)
+[![NPM](https://nodei.co/npm/tough-cookie-file-store-bugfix.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/tough-cookie-file-store-bugfix/)
 
 Another file store for tough-cookie module.
 
 The main purpose of this project is to have a published module with the original functionality of [tough-cookie-filestore][0] plus various fixes, improvements and features that I found useful.
+
+> This fork mainly fixes that cookie path has trailing slash.
 
 ## Installation
 ``` sh
