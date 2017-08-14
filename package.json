@@ -19,7 +19,7 @@
     "cookies",
     "cookiejar",
     "file",
-	"store"
+    "store"
   ],
   "dependencies": {
     "tough-cookie": "^2.3.1"
