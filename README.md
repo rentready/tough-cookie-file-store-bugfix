@@ -10,7 +10,7 @@ The main purpose of this project is to have a published module with the original
 
 ## Installation
 ``` sh
-$ npm install tough-cookie-file-store
+$ npm install tough-cookie-file-store-bugfix
 ```
 
 ## Usage
